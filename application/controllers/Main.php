@@ -13,7 +13,16 @@ class Main extends CI_Controller {
 		$this->load->library('pdf');
 		$this->load->library('pdf2');
 	}
-	public function index(){
+	public function index()
+	{
+		$this->load->view('Profile/Template/header');
         $this->load->view('Profile/main');
+		$this->load->view('Profile/Template/footer');
+	}
+	public function about()
+	{
+		$this->load->view('Profile/Template/header');
+		$this->load->view('Profile/about');
+		$this->load->view('Profile/Template/footer');
 	}
 }
