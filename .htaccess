@@ -2,3 +2,9 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php/$1 [L]
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^astikadharmabali\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.astikadharmabali\.com$
+RewriteRule ^/?$ "https\:\/\/astikadharmabali\.com\/" [R=301,L]
+
