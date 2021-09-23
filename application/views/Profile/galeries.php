@@ -198,6 +198,84 @@
 
           </div>
 
+          <!-- ---------------------------->>>> 2309 -->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+
+            <div class="portfolio-wrap">
+
+              <img src="assets/img/portfolio/2309-1.jpg" class="img-fluid" alt="">
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+
+            <div class="portfolio-wrap">
+
+              <img src="assets/img/portfolio/2309-2.jpeg" class="img-fluid" alt="">
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+
+            <div class="portfolio-wrap">
+
+              <img src="assets/img/portfolio/2309-3.jpeg" class="img-fluid" alt="">
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+
+            <div class="portfolio-wrap">
+
+              <img src="assets/img/portfolio/2309-4.jpeg" class="img-fluid" alt="">
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+
+            <div class="portfolio-wrap">
+
+              <img src="assets/img/portfolio/2309-5.jpeg" class="img-fluid" alt="">
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+
+            <div class="portfolio-wrap">
+
+              <img src="assets/img/portfolio/2309-6.jpeg" class="img-fluid" alt="">
+
+            </div>
+
+          </div>
+
+          <?php foreach($galeries as $data){
+
+            echo '
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+
+            <div class="portfolio-wrap">
+
+              <img src="assets/img/portfolio/'.$data->picture.'" class="img-fluid" alt="">
+
+            </div>
+
+          </div>
+            ';
+
+          } ?>
+
 
 
         </div>

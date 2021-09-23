@@ -14,7 +14,7 @@
 
       <div class="col-lg-3 col-md-6 footer-contact">
 
-        <h3>Astika Dharma Bali</h3>
+        <h3><?php echo $settings[0]->content ?></h3>
 
         <p>
 

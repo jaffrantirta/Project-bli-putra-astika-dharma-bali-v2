@@ -10,9 +10,9 @@
 
     <div class="container d-flex flex-column align-items-center justify-content-center" data-aos="fade-up">
 
-      <h1>Astika Dharma Bali</h1>
+      <h1><?php echo $settings[0]->content ?></h1>
 
-      <h2>Security Management Service and General Recruitment</h2>
+      <h2><?php echo $settings[1]->content ?></h2>
 
       <a href="#about" class="btn-get-started scrollto">Get Started</a>
 

@@ -31,12 +31,17 @@ class Main extends CI_Controller {
 	public function index()
 
 	{
+		$data['home'] = $this->api_model->get_data_by_where('home', array('id>='=>'0'))->result();
 
-		$this->load->view('Profile/Template/header');
+		$data['settings'] = $this->api_model->get_data_by_where('settings', array('id>='=>'0'))->result();
 
-        $this->load->view('Profile/main');
+		$this->load->view('Profile/Template/header', $data);
 
-		$this->load->view('Profile/Template/footer');
+        $this->load->view('Profile/main', $data);
+
+		$this->load->view('Profile/Template/footer', $data);
+
+		// echo json_encode($data);
 
 	}
 
@@ -79,12 +84,15 @@ class Main extends CI_Controller {
 	public function galeries()
 
 	{
+		$data['galeries'] = $this->api_model->get_data_by_where('galeries', array('id>='=>'0'))->result();
 
-		$this->load->view('Profile/Template/header');
+		$data['settings'] = $this->api_model->get_data_by_where('settings', array('id>='=>'0'))->result();
 
-		$this->load->view('Profile/galeries');
+		$this->load->view('Profile/Template/header', $data);
 
-		$this->load->view('Profile/Template/footer');
+		$this->load->view('Profile/galeries', $data);
+
+		$this->load->view('Profile/Template/footer', $data);
 
 	}
 
