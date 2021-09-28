@@ -84,7 +84,7 @@ class Main extends CI_Controller {
 	public function galeries()
 
 	{
-		$data['galeries'] = $this->api_model->get_data_by_where('galeries', array('id>='=>'0'))->result();
+		$data['galeries'] = $this->api_model->get_data_by_where('galeries', array('is_active'=>true))->result();
 
 		$data['settings'] = $this->api_model->get_data_by_where('settings', array('id>='=>'0'))->result();
 

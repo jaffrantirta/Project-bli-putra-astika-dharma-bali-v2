@@ -5,7 +5,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">List Lisensi</h1>
+            <h1 class="m-0">List Foto</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
           </div><!-- /.col -->
@@ -13,25 +13,20 @@
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content-header -->
-    <p hidden id='link'>datatable/get_all_order_lisensi</p>
+    <p hidden id='link'>edit/get_foto</p>
     <div class="card">
               <div class="card-header">
-                <h3 class="card-title">Lisensi Request</h3>
+                <h3 class="card-title">Lisensi Foto</h3>
               </div>
               <!-- /.card-header -->
               <div class="card-body table-responsive">
                 <table id="table" class="table table-bordered table-striped">
                   <thead>
                   <tr>
-                    <th>Order Number</th>
-                    <th>Date</th>
-                    <th>Amount</th>
-                    <th>Total Payment</th>
-                    <th>Requested By</th>
-                    <th>Reject</th>
-                    <th>Status</th>
-                    <th>Action</th>
-                    <th>requested_by</th>
+                    <th>Nama Foto</th>
+                    <th>Foto</th>
+                    <th>Tanggal Upload</th>
+                    <th>Aksi</th>
                   </tr>
                   </thead>
                   <tbody>
@@ -40,7 +35,7 @@
               </div>
               <!-- /.card-body -->
             </div>
-<script src="<?php echo base_url() ?>assets/build/js/customer/Jquery3Offline.js"></script>
+<script src="<?php echo base_url() ?>assets/admin/build/js/customer/Jquery3Offline.js"></script>
 <script>
     $(document).ready(function() {
         var link = document.getElementById('base_url').innerHTML + document.getElementById('link').innerHTML;
@@ -53,7 +48,7 @@
             "bSort":true,
             "bPaginate": true,
             "iDisplayLength": 10,
-            "order": [[ 1, "desc" ]],
+            "order": [[ 2, "desc" ]],
             "language": {
                 "searchPlaceholder": "Search...",
                 "search":""
@@ -62,7 +57,5 @@
                 $('#table_filter :input').addClass('form-control').css({'width':'10em'});
             }
         });
-        table.column( 5 ).visible( false );
-        table.column( 8 ).visible( false );
     });
 </script>

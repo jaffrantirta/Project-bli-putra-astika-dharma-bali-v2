@@ -4,36 +4,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title><?php echo $sistem_name ?> Admin | <?php echo $page ?></title>
+  <title>Astika Dharma Admin</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="<?php echo base_url() ?>assets/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="<?php echo base_url() ?>assets/admin/plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.6/css/buttons.dataTables.min.css">
   <!-- Tempusdominus Bootstrap 4 -->
-  <link rel="stylesheet" href="<?php echo base_url() ?>assets/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <link rel="stylesheet" href="<?php echo base_url() ?>assets/admin/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
   <!-- iCheck -->
-  <link rel="stylesheet" href="<?php echo base_url() ?>assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <link rel="stylesheet" href="<?php echo base_url() ?>assets/admin/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
   <!-- JQVMap -->
-  <link rel="stylesheet" href="<?php echo base_url() ?>assets/plugins/jqvmap/jqvmap.min.css">
+  <link rel="stylesheet" href="<?php echo base_url() ?>assets/admin/plugins/jqvmap/jqvmap.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="<?php echo base_url() ?>assets/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="<?php echo base_url() ?>assets/admin/dist/css/adminlte.min.css">
   <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="<?php echo base_url() ?>assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <link rel="stylesheet" href="<?php echo base_url() ?>assets/admin/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
   <!-- Daterange picker -->
-  <link rel="stylesheet" href="<?php echo base_url() ?>assets/plugins/daterangepicker/daterangepicker.css">
+  <link rel="stylesheet" href="<?php echo base_url() ?>assets/admin/plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
-  <link rel="stylesheet" href="<?php echo base_url() ?>assets/plugins/summernote/summernote-bs4.min.css">
+  <link rel="stylesheet" href="<?php echo base_url() ?>assets/admin/plugins/summernote/summernote-bs4.min.css">
   <!-- loader -->
-  <link rel="stylesheet" href="<?php echo base_url('assets/dist/css/loader/loader.css') ?>" />
+  <link rel="stylesheet" href="<?php echo base_url('assets/admin/dist/css/loader/loader.css') ?>" />
   <!-- swicth toggle -->
-  <link rel="stylesheet" href="<?php echo base_url('assets/dist/css/toggle.css') ?>" />
+  <link rel="stylesheet" href="<?php echo base_url('assets/admin/dist/css/toggle.css') ?>" />
   <!-- lottie player -->
-  <script src="<?php echo base_url('assets/build/js/lottie/LottiePlayer.js') ?>"></script>
+  <script src="<?php echo base_url('assets/admin/build/js/lottie/LottiePlayer.js') ?>"></script>
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed layout-footer-fixed text-sm"></body>
@@ -46,7 +46,7 @@
 
   <!-- Preloader -->
   <div class="preloader flex-column justify-content-center align-items-center">
-    <lottie-player class="animation__shake" src="https://assets9.lottiefiles.com/packages/lf20_x62chJ.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+    <lottie-player class="animation__shake" src="https://assets/admin9.lottiefiles.com/packages/lf20_x62chJ.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
     <h3 class="text-center">Memuat ...</h3>
   </div>
 
@@ -67,8 +67,8 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      <!-- <img src="<?php echo base_url() ?>assets/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8"> -->
-      <h4 class="brand-text font-weight-light"><?php echo $sistem_name ?> - Admin</h4>
+      <!-- <img src="<?php echo base_url() ?>assets/admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8"> -->
+      <h4 class="brand-text font-weight-light">Astika Dharma - Admin</h4>
     </a>
 
 
@@ -78,10 +78,10 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="<?php echo base_url() ?>assets/dist/img/user2.png" class="img-circle elevation-2" alt="User Image">
+          <img src="<?php echo base_url() ?>assets/admin/dist/img/user2.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block"><?php echo $session['data']->name ?></a>
+          <a href="#" class="d-block"><?php echo $session['data']->username ?></a>
           <p id="id" hidden><?php echo $session['data']->id ?></p>
         </div>
       </div>
@@ -91,206 +91,28 @@
       <!-- Sidebar Menu -->
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-          <!-- Add icons to the links using the .nav-icon class
-               with font-awesome or any other icon font library -->
-
-
-          <!-- <li class="nav-item">
-          <?php if ($page == 'Pengguna') { ?>
-            <a href="<?php echo base_url('admin/users') ?>" class="nav-link active">
-          <?php } else { ?>
-            <a href="<?php echo base_url('admin/users') ?>" class="nav-link">
-          <?php } ?>
-              <i class="nav-icon fas fa-user"></i>
+          
+          <li class="nav-item">
+            <a href="<?php echo base_url('edit/add_picture') ?>" class="nav-link">
+              <i class="nav-icon fas fa-sign-out-alt"></i>
               <p>
-                test
+                Tambah Gambar
               </p>
             </a>
-          </li> -->
-
-
-          <li class="nav-item">
-          <li class="nav-item menu-is-opening">
-          <a id="nav-daerah" href="#" class="nav-link">
-            <i class="nav-icon fas fa-key"></i>
-            <p>
-              Request
-              <i class="fas fa-angle-left right"></i>
-            </p>
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <?php if ($page == 'Request PIN Register') { ?>
-                <a href="<?php echo base_url('admin/request?action=pin') ?>" class="nav-link active">
-                <?php } else { ?>
-                  <a href="<?php echo base_url('admin/request?action=pin') ?>" class="nav-link">
-                  <?php } ?>
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>PIN Register</p>
-                  </a>
-            </li>
-            <li class="nav-item">
-              <?php if ($page == 'Request Lisensi') { ?>
-                <a href="<?php echo base_url('admin/request?action=lisensi') ?>" class="nav-link active">
-                <?php } else { ?>
-                  <a href="<?php echo base_url('admin/request?action=lisensi') ?>" class="nav-link">
-                  <?php } ?>
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Licence</p>
-                  </a>
-            </li>
-            <li class="nav-item">
-              <?php if ($page == 'up Lisensi') { ?>
-                <a href="<?php echo base_url('admin/request?action=upgrade') ?>" class="nav-link active">
-                <?php } else { ?>
-                  <a href="<?php echo base_url('admin/request?action=upgrade') ?>" class="nav-link">
-                  <?php } ?>
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Upgrade Licence</p>
-                  </a>
-            </li>
-            <li class="nav-item">
-              <?php if ($page == 'Request Withdraw') { ?>
-                <a href="<?php echo base_url('admin/request?action=withdraw') ?>" class="nav-link active">
-                <?php } else { ?>
-                  <a href="<?php echo base_url('admin/request?action=withdraw') ?>" class="nav-link">
-                  <?php } ?>
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Withdraw Request</p>
-                  </a>
-            </li>
-          </ul>
           </li>
 
           <li class="nav-item">
-            <?php if ($page == 'Members') { ?>
-              <a href="<?php echo base_url('admin/members') ?>" class="nav-link active">
-              <?php } else { ?>
-                <a href="<?php echo base_url('admin/members') ?>" class="nav-link">
-                <?php } ?>
-                <i class="nav-icon fas fa-users"></i>
-                <p>
-                  Members
-                </p>
-                </a>
-          </li>
-          <li class="nav-item">
-            <?php if ($page == 'Video Tutorial') { ?>
-              <a href="<?php echo base_url('admin/video_tutorial') ?>" class="nav-link active">
-              <?php } else { ?>
-                <a href="<?php echo base_url('admin/video_tutorial') ?>" class="nav-link">
-                <?php } ?>
-                <i class="nav-icon fas fa-film"></i>
-                <p>
-                  Video tutorial
-                </p>
-                </a>
-          </li>
-          <li class="nav-item">
-            <?php if ($page == 'Vidio dashboard') { ?>
-              <a href="<?php echo base_url('admin/vdasboard') ?>" class="nav-link active">
-              <?php } else { ?>
-                <a href="<?php echo base_url('admin/vdasboard') ?>" class="nav-link">
-                <?php } ?>
-                <i class="nav-icon fas fa-film"></i>
-                <p>
-                  Video dashboard
-                </p>
-                </a>
-          </li>
-          <li class="nav-item">
-            <?php if ($page == 'Icon') { ?>
-              <a href="<?php echo base_url('admin/icon') ?>" class="nav-link active">
-              <?php } else { ?>
-                <a href="<?php echo base_url('admin/icon') ?>" class="nav-link">
-                <?php } ?>
-                <i class="nav-icon fas fa-rocket"></i>
-                <p>
-                  Icon Wa
-                </p>
-                </a>
-          </li>
-
-          <li class="nav-item">
-            <?php if ($page == 'Company Profile' || $page == 'PIN Register Settings' || $page == 'Licences' || $page == 'Change Instraction Payment') { ?>
-          <li class="nav-item menu-is-opening menu-open">
-          <?php } else { ?>
-          <li class="nav-item">
-          <?php } ?>
-          <a id="nav-daerah" href="#" class="nav-link">
-            <i class="nav-icon fas fa-cogs"></i>
-            <p>
-              Settings
-              <i class="fas fa-angle-left right"></i>
-            </p>
-          </a>
-          <ul class="nav nav-treeview">
-            <li class="nav-item">
-              <?php if ($page == 'Company Profile') { ?>
-                <a href="<?php echo base_url('admin/settings?action=company-profile') ?>" class="nav-link active">
-                <?php } else { ?>
-                  <a href="<?php echo base_url('admin/settings?action=company-profile') ?>" class="nav-link">
-                  <?php } ?>
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Company Profile</p>
-                  </a>
-            </li>
-            <li class="nav-item">
-              <?php if ($page == 'PIN Register Settings') { ?>
-                <a href="<?php echo base_url('admin/settings?action=pin-register') ?>" class="nav-link active">
-                <?php } else { ?>
-                  <a href="<?php echo base_url('admin/settings?action=pin-register') ?>" class="nav-link">
-                  <?php } ?>
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>PIN Register Settings</p>
-                  </a>
-            </li>
-            <li class="nav-item">
-              <?php if ($page == 'Licences') { ?>
-                <a href="<?php echo base_url('admin/settings?action=licences') ?>" class="nav-link active">
-                <?php } else { ?>
-                  <a href="<?php echo base_url('admin/settings?action=licences') ?>" class="nav-link">
-                  <?php } ?>
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Licences</p>
-                  </a>
-            </li>
-            <li class="nav-item">
-              <?php if ($page == 'Change Instraction Payment') { ?>
-                <a href="<?php echo base_url('admin/settings?action=instruction') ?>" class="nav-link active">
-                <?php } else { ?>
-                  <a href="<?php echo base_url('admin/settings?action=instruction') ?>" class="nav-link">
-                  <?php } ?>
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Change Instructions Payment</p>
-                  </a>
-            </li>
-            <li class="nav-item">
-              <?php if ($page == 'Banner') { ?>
-                <a href="<?php echo base_url('admin/settings?action=banner') ?>" class="nav-link active">
-                <?php } else { ?>
-                  <a href="<?php echo base_url('admin/settings?action=banner') ?>" class="nav-link">
-                  <?php } ?>
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Banner</p>
-                  </a>
-            </li>
-            <li class="nav-item">
-              <?php if ($page == 'Minimum Widthdraw') { ?>
-                <a href="<?php echo base_url('admin/settings?action=minwidtraw') ?>" class="nav-link active">
-                <?php } else { ?>
-                  <a href="<?php echo base_url('admin/settings?action=minwidtraw') ?>" class="nav-link">
-                  <?php } ?>
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Minimum Withdraw</p>
-                  </a>
-            </li>
-          </ul>
+            <a href="<?php echo base_url('edit/index') ?>" class="nav-link">
+              <i class="nav-icon fas fa-sign-out-alt"></i>
+              <p>
+                List Gambar
+              </p>
+            </a>
           </li>
 
 
           <li class="nav-item">
-            <a href="<?php echo base_url('admin/logout') ?>" class="nav-link">
+            <a href="<?php echo base_url('edit/logout') ?>" class="nav-link">
               <i class="nav-icon fas fa-sign-out-alt"></i>
               <p>
                 Logout

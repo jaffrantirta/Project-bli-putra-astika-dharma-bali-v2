@@ -22,24 +22,23 @@ function login(){
         if(password != ''){
             $('.loader').attr('hidden', false);
             $.ajax({
-                url: base_url+"api/login_process_admin",
+                url: base_url+"edit/login_process_admin",
                 type: "post",
-                data: {'username':username, 'password':btoa(password)},
+                data: {'username':username, 'password':password},
                 success: function(result){
                     $('.loader').attr('hidden', true);
                     // console.log('data : '+result);
-                    var data = JSON.parse(result);
-                    var d = data.data[0];
-                    show_message('success', 'Login berhasil', '');
-                    location.reload();
+                    if(result == true){
+                        show_message('success', 'Login berhasil', '');
+                        location.reload();
+                    }else{
+                        show_message('error', 'Oops! sepertinya username atau password salah', 'masukan username dan password yang sesuai');
+                    }
                 },
                 error: function (result, ajaxOptions, thrownError) {
                     $('.loader').attr('hidden', true);
                     // console.log('data : '+xhr.responseText);
                     show_message('error', 'Oops! sepertinya ada kesalahan', 'kesalahan tidak diketahui');
-                    var string = JSON.stringify(result.responseText);
-                    var msg = JSON.parse(result.responseText);
-                    show_message('error', 'Oops! sepertinya ada kesalahan', msg.response.message['indonesia']);
                 }
             });
         }else{
