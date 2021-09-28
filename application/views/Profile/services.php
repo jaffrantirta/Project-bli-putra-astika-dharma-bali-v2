@@ -8,7 +8,7 @@
 
   <div class="section-title">
 
-    <h2>Jasa</h2>
+    <h2>Services</h2>
 
     <p></p>
 
@@ -26,22 +26,22 @@
 
     <div class="col-md-7 pt-4" data-aos="fade-left" data-aos-delay="100">
 
-      <h3>Jasa Pengamanan</h3>
+      <h3>Security Service</h3>
 
       <p class="fst-italic">
 
-      Salah satu jasa service kami adalah Jasa perusahaan jasa keamanan
-yang bergerak dibidang penyediaan tenaga satuan pengamanan satpam.
+      One of our services is a security service company
+which is engaged in the provision of security guard personnel.
 
       </p>
 
       <ul>
 
-        <li><i class="bi bi-check"></i> Jasa tenaga keamanan atau satpam untuk gedung, pabrik, kantor, hotel, dll.</li>
+        <li><i class="bi bi-check"></i> Security services or security guards for buildings, factories, offices, hotels, etc.</li>
 
-        <li><i class="bi bi-check"></i> Jasa pelatihan security.</li>
+        <li><i class="bi bi-check"></i> Security training services.</li>
 
-        <li><i class="bi bi-check"></i> Jasa pengamanan event.</li>
+        <li><i class="bi bi-check"></i> Event security services.</li>
 
       </ul>
 
@@ -61,11 +61,11 @@ yang bergerak dibidang penyediaan tenaga satuan pengamanan satpam.
 
     <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
 
-      <h3>Jasa Pengawal Pribadi</h3>
+      <h3>Bodyguard Service</h3>
 
       <p class="fst-italic">
 
-        Ingin memiliki keamanan ekstra dan pribadi ? kami memiliki solusi yang bisa membantu anda. Anda tak perlu khawatir untuk berpergian kemana saja. Kami siap melinddungi.
+      Want to have extra security and privacy? We have a solution that can help you. You don't have to worry about traveling anywhere. We are ready to protect.
 
       </p>
 
@@ -95,14 +95,14 @@ yang bergerak dibidang penyediaan tenaga satuan pengamanan satpam.
 
     <div class="col-md-7 pt-5" data-aos="fade-left">
 
-      <h3>Jasa Cleaning Service</h3>
+      <h3>Cleaning Service</h3>
 
-      <p>Bagi anda yang menginginkan efisiensi budget, waktu dan tenaga, tetapi
-kesibukan yang sangat padat, menjadikannya tidak mungkin anda kerjakan
-semua, seperti pekerjaan bersih bersih & perawatan rumah, kantor, gedung,
-mall, pabrik, hotel, oleh karena itu kami tawarkan solusi dengan memanfaatkan
-jasa cleaning service PT. Astika Dharma Bali.
-.</p>
+      <p>For those of you who want budget, time and energy efficiency, but
+very busy, making it impossible for you to do
+all, such as cleaning & maintenance work of home, office, building,
+malls, factories, hotels, therefore we offer solutions by utilizing
+cleaning services PT. Astika Dharma Bali.
+</p>
 
       <ul>
 
@@ -130,11 +130,11 @@ jasa cleaning service PT. Astika Dharma Bali.
 
     <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
 
-      <h3>Jasa Dirver</h3>
+      <h3>Dirver</h3>
 
       <p class="fst-italic">
 
-        Bebas berpergian kemana pun tanpa takut lelah berkendara. Driver kami handal dan nyaman dalam berkendara
+      Free to travel anywhere without fear of getting tired of driving. Our drivers are reliable and comfortable in driving
 
       </p>
 

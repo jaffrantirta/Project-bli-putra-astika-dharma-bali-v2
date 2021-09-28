@@ -22,13 +22,13 @@
 
       <ul id="portfolio-flters">
 
-        <li data-filter="*" class="filter-active">Semua</li>
+        <li data-filter="*" class="filter-active">All</li>
 
-        <li data-filter=".filter-app">Keamanan</li>
+        <li data-filter=".filter-app">Secirity</li>
 
-        <li data-filter=".filter-card">Kegiatan Kami</li>
+        <li data-filter=".filter-card">Our Actions</li>
 
-        <li data-filter=".filter-web">Aktivitas Kami</li>
+        <li data-filter=".filter-web">Our Activities</li>
 
       </ul>
 

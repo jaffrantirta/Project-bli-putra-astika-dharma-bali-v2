@@ -8,7 +8,7 @@
 
         <div class="section-title">
 
-          <h2>Visi & Misi</h2>
+          <h2>Vision & Mission</h2>
 
           <p></p>
 
@@ -26,15 +26,13 @@
 
           <div class="col-md-7 pt-4" data-aos="fade-left" data-aos-delay="100">
 
-            <h3>Visi</h3>
+            <h3>Vision</h3>
 
             <h4 class="fst-italic">
 
-            Menjadi perusahaan penyedia jasa keamanan dan penyedia
-
-tenaga kerja outsourching lainnya yang profesional, handal dan
-
-terpercaya.
+            Become a security service provider company and provider of
+other outsourcing workers who are professional, reliable and
+Trusted.
 
 
 
@@ -66,15 +64,15 @@ terpercaya.
 
           <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
 
-            <h3>Misi</h3>
+            <h3>Mission</h3>
 
             <ul>
 
-              <li><i class="bi bi-check"></i> Kepuasan dan kepercayaan pelanggan menjadi prioritas utama salah satu jasa penyedia tenaga security.</li>
+              <li><i class="bi bi-check"></i> Customer satisfaction and trust is a top priority for one of the security service providers.</li>
 
-              <li><i class="bi bi-check"></i> Menyediakan Satuan Tenaga Pengamanan yang Profesional, Berkualitas dan Berintegritas.</li>
+              <li><i class="bi bi-check"></i> Providing Professional, Quality and Integrity Security Forces.</li>
 
-              <li><i class="bi bi-check"></i> Menjalin hubungan yang berkepanjanagan, berkesinambungan dengan selalu memperhatikan kebutuhan mitrastrategis dan berkembang maju bersama.</li>
+              <li><i class="bi bi-check"></i> Maintaining long-lasting, sustainable relationships by always paying attention to the needs of strategic partners and developing together.</li>
 
             </ul>
 

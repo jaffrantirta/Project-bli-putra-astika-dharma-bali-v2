@@ -44,15 +44,15 @@
 
             <div class="content">
 
-              <h3>Profil Perusahaan</h3>
+              <h3>Company Profile</h3>
 
               <p>
 
-              PT. Astika Dharma Bali adalah perusahaan yang bergerak dalam bidang pelayanan jasa keamanan (Security Management Service)
+              PT. Astika Dharma Bali is a company engaged in the field of security services (Security Management Service)
 
               </p>
 
-              <a href="<?php echo base_url('about-us') ?>" class="about-btn">Tentang Kami <i class="bx bx-chevron-right"></i></a>
+              <a href="<?php echo base_url('about-us') ?>" class="about-btn">About Us <i class="bx bx-chevron-right"></i></a>
 
             </div>
 
@@ -68,9 +68,9 @@
 
                   <i class="bx bx-shield"></i>
 
-                  <h4>Keamanan</h4>
+                  <h4>Security</h4>
 
-                  <p>Kami menyediakan tenaga satuan keamanan yang siap bertugas menertiban keamanan</p>
+                  <p>We provide security personnel who are ready to take care of security</p>
 
                 </div>
 
@@ -78,9 +78,9 @@
 
                   <i class="bx bx-body"></i>
 
-                  <h4>Pengawal Pribadi</h4>
+                  <h4>Personal Bodyguard</h4>
 
-                  <p>Keamanan ekstra dan personal untuk melindungin Anda</p>
+                  <p>Extra and personal security to protect you</p>
 
                 </div>
 
@@ -90,7 +90,7 @@
 
                   <h4>Cleaning Service</h4>
 
-                  <p>Membersihkan tempat anda dalam sekejap dan bersih</p>
+                  <p>Clean your place in an instant and clean</p>
 
                 </div>
 
@@ -100,7 +100,7 @@
 
                   <h4>Driver</h4>
 
-                  <p>Jangan khawatir berpergian jauh, kami siap mengantarkan</p>
+                  <p>Don't worry about traveling far, we are ready to deliver</p>
 
                 </div>
 
@@ -200,7 +200,7 @@
 
         <div class="section-title">
 
-          <h2>Jasa</h2>
+          <h2>Services</h2>
 
           <p></p>
 
@@ -218,22 +218,22 @@
 
           <div class="col-md-7 pt-4" data-aos="fade-left" data-aos-delay="100">
 
-            <h3>Jasa Pengamanan</h3>
+            <h3>Security Service</h3>
 
             <p class="fst-italic">
 
-            Salah satu jasa service kami adalah Jasa perusahaan jasa keamanan
-yang bergerak dibidang penyediaan tenaga satuan pengamanan satpam.
+            One of our services is a security service company
+which is engaged in the provision of security guard personnel.
 
             </p>
 
             <ul>
 
-              <li><i class="bi bi-check"></i> Jasa tenaga keamanan atau satpam untuk gedung, pabrik, kantor, hotel, dll.</li>
+              <li><i class="bi bi-check"></i> Security services or security guards for buildings, factories, offices, hotels, etc.</li>
 
-              <li><i class="bi bi-check"></i> Jasa pelatihan security.</li>
+              <li><i class="bi bi-check"></i> Security training services.</li>
 
-              <li><i class="bi bi-check"></i> Jasa pengamanan event.</li>
+              <li><i class="bi bi-check"></i> Event security services.</li>
 
             </ul>
 
@@ -253,11 +253,11 @@ yang bergerak dibidang penyediaan tenaga satuan pengamanan satpam.
 
           <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
 
-            <h3>Jasa Pengawal Pribadi</h3>
+            <h3>Personal Bodyguard Service</h3>
 
             <p class="fst-italic">
 
-              Ingin memiliki keamanan ekstra dan pribadi ? kami memiliki solusi yang bisa membantu anda. Anda tak perlu khawatir untuk berpergian kemana saja. Kami siap melinddungi.
+            Want to have extra security and privacy? We have a solution that can help you. You don't have to worry about traveling anywhere. We are ready to protect.
 
             </p>
 
@@ -287,14 +287,13 @@ yang bergerak dibidang penyediaan tenaga satuan pengamanan satpam.
 
           <div class="col-md-7 pt-5" data-aos="fade-left">
 
-            <h3>Jasa Cleaning Service</h3>
+            <h3>Cleaning Service</h3>
 
-            <p>Bagi anda yang menginginkan efisiensi budget, waktu dan tenaga, tetapi
-kesibukan yang sangat padat, menjadikannya tidak mungkin anda kerjakan
-semua, seperti pekerjaan bersih bersih & perawatan rumah, kantor, gedung,
-mall, pabrik, hotel, oleh karena itu kami tawarkan solusi dengan memanfaatkan
-jasa cleaning service PT. Astika Dharma Bali.
-.</p>
+            <p>For those of you who want budget, time and energy efficiency, but
+very busy, making it impossible for you to do
+all, such as cleaning & maintenance work of home, office, building,
+malls, factories, hotels, therefore we offer solutions by utilizing
+cleaning services PT. Astika Dharma Bali.</p>
 
             <ul>
 
@@ -322,11 +321,11 @@ jasa cleaning service PT. Astika Dharma Bali.
 
           <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
 
-            <h3>Jasa Dirver</h3>
+            <h3>Dirver</h3>
 
             <p class="fst-italic">
 
-              Bebas berpergian kemana pun tanpa takut lelah berkendara. Driver kami handal dan nyaman dalam berkendara
+            Travel anywhere without fear of getting tired of driving. Our drivers are reliable and comfortable in driving
 
             </p>
 
@@ -456,7 +455,7 @@ jasa cleaning service PT. Astika Dharma Bali.
 
         <div class="section-title">
 
-          <h2>Mengapa menggunakan Jasa kami ?</h2>
+          <h2>Why use our services?</h2>
 
           <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
 
@@ -472,9 +471,9 @@ jasa cleaning service PT. Astika Dharma Bali.
 
               <div class="icon"><i class="bx bxs-lock"></i></div>
 
-              <h4 class="title"><a href="">Keamanan Terjamin</a></h4>
+              <h4 class="title"><a href="">Guaranteed Security</a></h4>
 
-              <p class="description">Kami telah memiliki izin legal dan keamanan terjamin.</p>
+              <p class="description">We already have legal permits and guaranteed security.</p>
 
             </div>
 
@@ -488,9 +487,9 @@ jasa cleaning service PT. Astika Dharma Bali.
 
               <div class="icon"><i class="bx bx-star"></i></div>
 
-              <h4 class="title"><a href="">Kualitas Terbaik</a></h4>
+              <h4 class="title"><a href="">Best quality</a></h4>
 
-              <p class="description">Memiliki kualatas keamanan terbaik dan staff yang berprofesional.</p>
+              <p class="description">It has the best security quality and professional staff.</p>
 
             </div>
 
@@ -520,9 +519,9 @@ jasa cleaning service PT. Astika Dharma Bali.
 
               <div class="icon"><i class="bx bx-user-check"></i></div>
 
-              <h4 class="title"><a href="">Tangguh</a></h4>
+              <h4 class="title"><a href="">Tough</a></h4>
 
-              <p class="description">Siap menjaga keamanan dan kedamaian.</p>
+              <p class="description">Ready to maintain security and peace.</p>
 
             </div>
 
@@ -550,7 +549,7 @@ jasa cleaning service PT. Astika Dharma Bali.
 
   <div class="section-title">
 
-    <h2>Galeri</h2>
+    <h2>Galery</h2>
 
     <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
 
@@ -564,13 +563,13 @@ jasa cleaning service PT. Astika Dharma Bali.
 
       <ul id="portfolio-flters">
 
-        <li data-filter="*" class="filter-active">Semua</li>
+        <li data-filter="*" class="filter-active">All</li>
 
-        <li data-filter=".filter-app">Keamanan</li>
+        <li data-filter=".filter-app">Security</li>
 
-        <li data-filter=".filter-card">Kegiatan Kami</li>
+        <li data-filter=".filter-card">Out Actions</li>
 
-        <li data-filter=".filter-web">Aktivitas Kami</li>
+        <li data-filter=".filter-web">Our Activities</li>
 
       </ul>
 
@@ -710,7 +709,7 @@ jasa cleaning service PT. Astika Dharma Bali.
 
         <div class="section-title">
 
-          <h2>Kontak</h2>
+          <h2>Contact Us</h2>
 
           <p></p>
 
@@ -748,7 +747,7 @@ jasa cleaning service PT. Astika Dharma Bali.
 
                   <i class="bx bx-envelope"></i>
 
-                  <h3>Email Kami</h3>
+                  <h3>Email</h3>
 
                   <p>astikadharmabali@gmail.com</p>
 
@@ -762,7 +761,7 @@ jasa cleaning service PT. Astika Dharma Bali.
 
                   <i class="bx bx-phone-call"></i>
 
-                  <h3>Hubungi Kami</h3>
+                  <h3>Phone</h3>
 
                   <p>(0361) 9065334 / 081339956625</p>
 

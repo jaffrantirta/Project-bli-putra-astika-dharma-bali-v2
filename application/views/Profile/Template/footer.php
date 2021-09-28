@@ -28,7 +28,7 @@
 
           Indonesia <br><br>
 
-          <strong>Telepon:</strong> (0361) 9065334 / 081339956625<br>
+          <strong>Phone:</strong> (0361) 9065334 / 081339956625<br>
 
           <strong>Email:</strong> astikadharmabali@gmail.com<br>
 

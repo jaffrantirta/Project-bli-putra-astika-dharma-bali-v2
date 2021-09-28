@@ -94,7 +94,7 @@
           
           <li class="nav-item">
             <a href="<?php echo base_url('edit/add_picture') ?>" class="nav-link">
-              <i class="nav-icon fas fa-sign-out-alt"></i>
+              <i class="nav-icon fas fa-plus-square"></i>
               <p>
                 Tambah Gambar
               </p>
@@ -103,7 +103,7 @@
 
           <li class="nav-item">
             <a href="<?php echo base_url('edit/index') ?>" class="nav-link">
-              <i class="nav-icon fas fa-sign-out-alt"></i>
+              <i class="nav-icon fas fa-list"></i>
               <p>
                 List Gambar
               </p>

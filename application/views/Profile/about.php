@@ -8,7 +8,7 @@
 
         <div class="section-title">
 
-          <h2>Tentang Kami</h2>
+          <h2>About Us</h2>
 
           <p></p>
 
@@ -26,25 +26,25 @@
 
           <div class="col-md-7 pt-4" data-aos="fade-left" data-aos-delay="100">
 
-            <h3>Profil Perusahaan</h3>
+            <h3>Company Profile</h3>
 
             <p class="fst-italic">
 
-            PT. Astika Dharma Bali adalah perusahaan yang bergerak
+            PT. Astika Dharma Bali is a company engaged
 
-dalam bidang pelayanan jasa keamanan
+in the field of security services
 
-(Security Management Service), menyediakan tenaga kerja
+(Security Management Service), providing manpower
 
-khususnya satuan pengamanan (satpam) dan juga tenaga
+especially the security unit (security guard) and also personnel
 
-kerja outsourching (alih daya) lainnya, seperti : Cleaning
+other outsourcing work, such as: Cleaning
 
-service, tenaga administrasi, driver, dan lain-lain. Dalam
+service, administrative staff, drivers, and others. In
 
-rangka memenuhi kebutuhan permintaan tenaga kerja dari
+order to meet the demand for labor from
 
-perusahaan – perusahaan di seluruh Indonesia.
+companies throughout Indonesia
 
 
 
@@ -76,17 +76,17 @@ perusahaan – perusahaan di seluruh Indonesia.
 
           <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
 
-            <h3>Legalitas</h3>
+            <h3>Legality</h3>
 
             <p class="fst-italic">
 
-            PT. Astika Dharma Bali, didirikan berdasarkan Perundang - undangan
+            PT. Astika Dharma Bali, established by law
 
-yang berlaku di Negara Kesatuan RI, tentang Perseroan Terbatas,
+applicable in the Unitary State of the Republic of Indonesia, regarding Limited Liability Companies,
 
-Perusahaan Penyalur tenaga kerja serta Ijin Operasional dari Mabes
+Employment Distribution Company and Operational Permit from Headquarters
 
-Polri untuk perusahaan Jasa Keamanan satpam.
+Police for security service companies.
 
             </p>
 
@@ -118,7 +118,7 @@ Polri untuk perusahaan Jasa Keamanan satpam.
 
           <div class="col-md-5 pt-4" data-aos="fade-left" data-aos-delay="100">
 
-            <h2>Struktur Organisasi</h2>
+            <h2>Organizational Structure</h2>
 
             <p class="fst-italic">
 

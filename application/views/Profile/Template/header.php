@@ -96,19 +96,19 @@
 
         <ul>
 
-          <li><a class="nav-link scrollto active" href="<?php echo base_url() ?>">Beranda</a></li>
+          <li><a class="nav-link scrollto active" href="<?php echo base_url() ?>">Home</a></li>
 
-          <li><a class="nav-link scrollto" href="<?php echo base_url('about-us') ?>">Tentang Kami</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo base_url('about-us') ?>">About Us</a></li>
 
-          <li><a class="nav-link scrollto" href="<?php echo base_url('services') ?>">Jasa</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo base_url('services') ?>">Services</a></li>
 
-          <li><a class="nav-link scrollto " href="<?php echo base_url('vision-mission') ?>">Visi Misi</a></li>
+          <li><a class="nav-link scrollto " href="<?php echo base_url('vision-mission') ?>">Vision and Mission</a></li>
 
-          <li><a class="nav-link scrollto" href="<?php echo base_url('galeries') ?>">Galeri</a></li>
+          <li><a class="nav-link scrollto" href="<?php echo base_url('galeries') ?>">Galery</a></li>
 
           <!-- <li><a class="nav-link scrollto" href="#pricing">Kontak</a></li> -->
 
-          <li><a class="getstarted scrollto" href="tel:+6281339956625">Hubungi Kami</a></li>
+          <li><a class="getstarted scrollto" href="tel:+6281339956625">Contact Us</a></li>
 
         </ul>
 
